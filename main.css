@@ -21,7 +21,7 @@ h1 {
 }
 
 .counter {
-  background-image: url("../img/counter.jpg");
+  background-image: url("counter.jpg");
   background-size: cover;
   font-size: 3em;
   color: white;
@@ -65,26 +65,26 @@ h1 {
 }
 input[type="number"] {
   text-align: center;
-  width: 900px; /* Ширина поля */
-  height: 100px; /* Висота поля */
-  padding: 10px; /* Внутрішні відступи */
-  font-size: 60px; /* Розмір шрифту */
+  width: 900px; 
+  height: 100px; 
+  padding: 10px; 
+  font-size: 60px; 
   font-style: italic;
-  box-sizing: border-box; /* Враховує padding і border в розмірі елемента */
+  box-sizing: border-box;
 }
 input[type="submit"] {
   width: 400px;
   height: 100px;
   margin: 8% 0 5% 0;
-  font-size: 60px; /* Розмір шрифту */
+  font-size: 60px; 
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   font-style: italic;
   border-radius: 20px;
   border: none;
-  cursor: pointer; /* Вказівник миші */
-  transition: box-shadow 0.3s ease; /* Анімація тіні при наведенні */
+  cursor: pointer; 
+  transition: box-shadow 0.3s ease; 
 }
 input[type="submit"]:hover {
-  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2); /* Тінь кнопки при наведенні */
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2); 
 }
