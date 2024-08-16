@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100pt;
+}
+.main {
+  width: 100%;
+}
+
+h1 {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  margin-bottom: 7%;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.counter {
+  background-image: url("../img/counter.jpg");
+  background-size: cover;
+  font-size: 3em;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 5% 5% 5% 5%;
+}
+#slider {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+#slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s;
+}
+#title {
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 6rem;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 10;
+}
+#slider:hover #title {
+  opacity: 1;
+}
+input[type="number"] {
+  text-align: center;
+  width: 900px; /* Ширина поля */
+  height: 100px; /* Висота поля */
+  padding: 10px; /* Внутрішні відступи */
+  font-size: 60px; /* Розмір шрифту */
+  font-style: italic;
+  box-sizing: border-box; /* Враховує padding і border в розмірі елемента */
+}
+input[type="submit"] {
+  width: 400px;
+  height: 100px;
+  margin: 8% 0 5% 0;
+  font-size: 60px; /* Розмір шрифту */
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer; /* Вказівник миші */
+  transition: box-shadow 0.3s ease; /* Анімація тіні при наведенні */
+}
+input[type="submit"]:hover {
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2); /* Тінь кнопки при наведенні */
+}
